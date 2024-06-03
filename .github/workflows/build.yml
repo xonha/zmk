@@ -1,3 +1,4 @@
+name: Firmware Update 
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
