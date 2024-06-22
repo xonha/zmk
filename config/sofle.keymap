@@ -74,8 +74,8 @@
 
             bindings = <
 &kp SQT    &kp N1  &kp N2        &kp N3     &kp N4         &kp N5                               &kp N6         &kp N7  &kp N8               &kp N9              &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W         &kp E      &kp R          &kp T                                &kp Y          &kp U   &kp I                &kp O               &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S         &kp D      &kp F          &kp G                                &kp H          &kp J   &kp K                &kp L               &kp SEMICOLON  &kp RIGHT_BRACKET
+&kp ESC    &kp Q   &kp W         &kp E      &kp R          &kp T                                &kp Y          &kp U   &kp I                &kp O               &kp P          &kp LEFT_BRACKET
+&kp TAB    &kp A   &kp S         &kp D      &kp F          &kp G                                &kp H          &kp J   &kp K                &kp L               &kp SEMICOLON  &kp RIGHT_BRACKET
 &kp LSHFT  &kp Z   &kp X         &kp C      &kp V          &kp B       &kp C_MUTE    &none      &kp N          &kp M   &kp COMMA            &kp DOT             &kp SLASH      &kp RSHFT
                    &kp LEFT_ALT  &kp LCTRL  &kp LEFT_META  &kp DELETE  &kp SPACE     &kp ENTER  &kp BACKSPACE  &mo 3   &activate_caps_lock  &activate_num_lock
             >;
@@ -87,9 +87,9 @@
             display-name = "caps_lock";
             bindings = <
 &kp SQT    &kp N1  &kp N2        &kp N3     &kp N4         &kp N5                               &kp N6         &kp N7  &kp N8                 &kp N9   &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W         &kp E      &kp R          &kp T                                &kp Y          &kp U   &kp I                  &kp O    &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S         &kp D      &kp F          &kp G                                &kp H          &kp J   &kp K                  &kp L    &kp RA(COMMA)  &kp RIGHT_BRACKET
-&kp LSHFT  &kp Z   &kp X         &kp C      &kp V          &kp B       &kp C_MUTE    &trans     &kp N          &kp M   &kp COMMA              &kp DOT  &kp SEMICOLON  &kp RSHFT
+&kp ESC    &kp Q   &kp W         &kp E      &kp R          &kp T                                &kp Y          &kp U   &kp I                  &kp O    &kp P          &kp LEFT_BRACKET
+&kp TAB    &kp A   &kp S         &kp D      &kp F          &kp G                                &kp H          &kp J   &kp K                  &kp L    &kp SEMICOLON  &kp RIGHT_BRACKET
+&kp LSHFT  &kp Z   &kp X         &kp C      &kp V          &kp B       &kp C_MUTE    &trans     &kp N          &kp M   &kp COMMA              &kp DOT  &kp SLASH      &kp RSHFT
                    &kp LEFT_ALT  &kp LCTRL  &kp LEFT_META  &kp DELETE  &kp SPACE     &kp ENTER  &kp BACKSPACE  &mo 2   &deactivate_caps_lock  &trans
             >;
 
@@ -132,11 +132,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11  &kp F1                &kp F2        &kp F3         &kp F4     &kp F5                       &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
-&trans   &kp PLUS              &kp MINUS     &trans         &kp GRAVE  &kp LCTRL                    &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
-&trans   &kp EQUAL             &kp ASTERISK  &kp SLASH      &kp SQT    &kp TILDE                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
-&trans   &kp NON_US_BACKSLASH  &kp PIPE      &kp RA(COMMA)  &kp HOME   &kp END    &trans    &trans  &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
-                               &trans        &trans         &trans     &trans     &trans    &trans  &trans          &trans          &trans            &trans
+&kp F11  &kp F1                &kp F2        &kp F3         &kp F4     &kp F5                      &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
+&trans   &kp PLUS              &kp MINUS     &kp GRAVE      &kp CARET  &kp HOME                    &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
+&trans   &kp EQUAL             &kp ASTERISK  &kp SQT        &kp TILDE  &trans                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
+&trans   &kp NON_US_BACKSLASH  &kp PIPE      &kp RA(COMMA)  &trans     &kp END   &trans    &trans  &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
+                               &trans        &trans         &trans     &trans    &trans    &trans  &trans          &trans          &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
