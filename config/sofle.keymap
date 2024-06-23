@@ -134,7 +134,7 @@
             bindings = <
 &kp F11  &kp F1                &kp F2        &kp F3         &kp F4     &kp F5                      &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
 &trans   &kp PLUS              &kp MINUS     &kp GRAVE      &kp CARET  &kp HOME                    &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
-&trans   &kp EQUAL             &kp ASTERISK  &kp SQT        &kp TILDE  &trans                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
+&trans   &kp EQUAL             &kp ASTERISK  &kp RA(SQT)    &kp TILDE  &trans                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
 &trans   &kp NON_US_BACKSLASH  &kp PIPE      &kp RA(COMMA)  &trans     &kp END   &trans    &trans  &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
                                &trans        &trans         &trans     &trans    &trans    &trans  &trans          &trans          &trans            &trans
             >;
