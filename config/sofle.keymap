@@ -40,14 +40,14 @@
         activate_caps_lock: activate_caps_lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &rgb_ug RGB_COLOR_HSB(208,100,50) &kp CAPSLOCK>;
+            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(208,100,50) &kp CAPSLOCK>;
             label = "ACTIVATE_CAPS_LOCK";
         };
 
         activate_num_lock: activate_num_lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 2 &rgb_ug RGB_COLOR_HSB(28,100,50)>;
+            bindings = <&to 1 &rgb_ug RGB_COLOR_HSB(28,100,50)>;
             label = "ACTIVATE_NUM_LOCK";
         };
 
@@ -73,31 +73,16 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp SQT    &kp N1  &kp N2        &kp N3     &kp N4         &kp N5                               &kp N6         &kp N7       &kp N8               &kp N9              &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W         &kp E      &kp R          &kp T                                &kp Y          &kp U        &kp I                &kp O               &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S         &kp D      &kp F          &kp G                                &kp H          &kp J        &kp K                &kp L               &kp RA(COMMA)  &kp RIGHT_BRACKET
-&kp LSHFT  &kp Z   &kp X         &kp C      &kp V          &kp B       &kp C_MUTE    &none      &kp N          &kp M        &kp COMMA            &kp DOT             &kp SEMICOLON  &kp RSHFT
-                   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_META  &kp DELETE  &kp SPACE     &kp ENTER  &kp BACKSPACE  &lt 3 SPACE  &activate_caps_lock  &activate_num_lock
+&kp SQT    &kp N1  &kp N2      &kp N3        &kp N4     &kp N5                                 &kp N6         &kp N7       &kp N8        &kp N9              &kp N0         &kp MINUS
+&kp TAB    &kp Q   &kp W       &kp E         &kp R      &kp T                                  &kp Y          &kp U        &kp I         &kp O               &kp P          &kp LEFT_BRACKET
+&kp ESC    &kp A   &kp S       &kp D         &kp F      &kp G                                  &kp H          &kp J        &kp K         &kp L               &kp RA(COMMA)  &kp RIGHT_BRACKET
+&kp LSHFT  &kp Z   &kp X       &kp C         &kp V      &kp B         &kp C_MUTE    &trans     &kp N          &kp M        &kp COMMA     &kp DOT             &kp SEMICOLON  &kp RSHFT
+                   &kp DELETE  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_WIN  &kp SPACE     &kp ENTER  &kp BACKSPACE  &lt 2 SPACE  &kp CAPSLOCK  &activate_num_lock
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
                 <&inc_dec_kp PAGE_DOWN PAGE_UP>;
-        };
-
-        caps_lock_layer {
-            display-name = "caps_lock";
-            bindings = <
-&kp SQT    &kp N1  &kp N2        &kp N3     &kp N4         &kp N5                               &kp N6         &kp N7  &kp N8                 &kp N9   &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W         &kp E      &kp R          &kp T                                &kp Y          &kp U   &kp I                  &kp O    &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S         &kp D      &kp F          &kp G                                &kp H          &kp J   &kp K                  &kp L    &kp RA(COMMA)  &kp RIGHT_BRACKET
-&kp LSHFT  &kp Z   &kp X         &kp C      &kp V          &kp B       &kp C_MUTE    &trans     &kp N          &kp M   &kp COMMA              &kp DOT  &kp SEMICOLON  &kp RSHFT
-                   &kp LEFT_ALT  &kp LCTRL  &kp LEFT_META  &kp DELETE  &kp SPACE     &kp ENTER  &kp BACKSPACE  &mo 2   &deactivate_caps_lock  &trans
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         num_lock_layer {
