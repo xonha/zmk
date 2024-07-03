@@ -63,7 +63,7 @@
         compatible = "zmk,combos";
 
         open_terminal {
-            bindings = <&kp C_MENU>;
+            bindings = <&kp C_MENU_UP>;
             key-positions = <53 56>;
             layers = <0>;
         };
