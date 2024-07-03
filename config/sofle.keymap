@@ -47,7 +47,7 @@
         activate_num_lock: activate_num_lock {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &rgb_ug RGB_COLOR_HSB(28,100,50)>;
+            bindings = <&to 2 &rgb_ug RGB_COLOR_HSB(28,100,50)>;
             label = "ACTIVATE_NUM_LOCK";
         };
 
