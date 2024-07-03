@@ -59,6 +59,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        open_terminal {
+            bindings = <&kp C_GREEN>;
+            key-positions = <53 56>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -73,11 +83,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2      &kp N3        &kp N4     &kp N5                                  &kp N6       &kp N7         &kp N8              &kp N9    &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W       &kp E         &kp R      &kp T                                   &kp Y        &kp U          &kp I               &kp O     &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S       &kp D         &kp F      &kp G                                   &kp H        &kp J          &kp K               &kp L     &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X       &kp C         &kp V      &kp B         &kp C_MUTE    &kp C_MENU  &kp N        &kp M          &kp COMMA           &kp DOT   &kp SLASH      &kp RIGHT_SHIFT
-                   &kp DELETE  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_WIN  &kp SPACE     &kp ENTER   &lt 1 SPACE  &kp BACKSPACE  &activate_num_lock  &kp CAPS
+&kp GRAVE  &kp N1  &kp N2      &kp N3        &kp N4     &kp N5                                  &kp N6  &kp N7         &kp N8              &kp N9    &kp N0         &kp MINUS
+&kp TAB    &kp Q   &kp W       &kp E         &kp R      &kp T                                   &kp Y   &kp U          &kp I               &kp O     &kp P          &kp LEFT_BRACKET
+&kp ESC    &kp A   &kp S       &kp D         &kp F      &kp G                                   &kp H   &kp J          &kp K               &kp L     &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z   &kp X       &kp C         &kp V      &kp B         &kp C_MUTE    &kp C_MENU  &kp N   &kp M          &kp COMMA           &kp DOT   &kp SLASH      &kp RIGHT_SHIFT
+                   &kp DELETE  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_WIN  &kp SPACE     &kp ENTER   &mo 1   &kp BACKSPACE  &activate_num_lock  &kp CAPS
             >;
 
             sensor-bindings =
@@ -117,7 +127,7 @@
 
             display-name = "num_lock";
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &kp DELETE     &kp COMMA     &kp PERIOD            &kp ASTERISK  &none  &none
+&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &kp TAB        &kp COMMA     &kp PERIOD            &kp ASTERISK  &none  &none
 &ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans        &trans        &trans                                &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9          &kp SLASH     &none  &none
 &rgb_ug RGB_HUI    &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &none         &none         &none                                 &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6          &kp PLUS      &none  &none
 &rgb_ug RGB_HUD    &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &none         &none         &none         &trans       &none      &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3          &kp MINUS     &none  &none
