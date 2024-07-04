@@ -72,6 +72,11 @@
             bindings = <&kp ENTER>;
             key-positions = <53 56>;
         };
+
+        enter2 {
+            bindings = <&kp ENTER>;
+            key-positions = <54 56>;
+        };
     };
 
     keymap {
