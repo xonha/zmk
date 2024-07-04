@@ -107,11 +107,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11  &kp F1                &kp F2                    &kp F3                 &kp F4             &kp F5                                &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
-&trans   &kp RA(Q)             &kp RA(W)                 &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp HOME                              &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
-&trans   &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET      &kp BACKSLASH      &none                                 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
-&trans   &kp EQUAL             &kp PLUS                  &kp MINUS              &kp ASTERISK       &kp END   &trans         &trans       &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
-                               &sys_reset                &trans                 &trans             &trans    &bootloader    &bootloader  &trans          &trans          &trans            &sys_reset
+&kp F11  &kp F1                &kp F2                    &kp F3                 &kp F4             &kp F5                                   &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
+&trans   &kp RA(Q)             &kp RA(W)                 &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp HOME                                 &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
+&trans   &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET      &kp BACKSLASH      &none                                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
+&trans   &kp EQUAL             &kp PLUS                  &kp MINUS              &kp ASTERISK       &kp END      &trans         &trans       &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
+                               &sys_reset                &trans                 &trans             &bootloader  &bootloader    &bootloader  &bootloader     &trans          &trans            &sys_reset
             >;
 
             sensor-bindings =
