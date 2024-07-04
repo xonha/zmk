@@ -112,11 +112,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11  &kp F1                &kp F2                    &kp F3                 &kp F4             &kp F5                                   &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
-&trans   &kp RA(Q)             &kp RA(W)                 &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp HOME                                 &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
-&trans   &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET      &kp BACKSLASH      &none                                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
-&trans   &kp EQUAL             &kp PLUS                  &kp MINUS              &kp ASTERISK       &kp END      &trans         &trans       &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
-                               &sys_reset                &trans                 &trans             &bootloader  &bootloader    &bootloader  &bootloader     &trans          &trans            &sys_reset
+&kp F11  &kp F1                &kp F2                    &kp F3             &kp F4                 &kp F5                                   &kp F6          &kp F7          &kp F8            &kp F9           &kp F10          &kp F12
+&trans   &kp RA(Q)             &kp RA(W)                 &kp BACKSLASH      &kp LS(BACKSLASH)      &kp HOME                                 &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
+&trans   &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &none                                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
+&trans   &kp ASTRK             &kp MINUS                 &kp PLUS           &kp EQUAL              &kp END      &trans         &trans       &kp PAGE_DOWN   &trans          &trans            &trans           &trans           &trans
+                               &sys_reset                &trans             &trans                 &bootloader  &bootloader    &bootloader  &bootloader     &trans          &trans            &sys_reset
             >;
 
             sensor-bindings =
@@ -134,11 +134,11 @@
 
             display-name = "num_lock";
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &kp TAB        &kp COMMA     &kp PERIOD     &kp ASTERISK          &none  &none
-&ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans        &trans        &trans                                &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9   &kp SLASH             &none  &none
-&rgb_ug RGB_HUI    &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &none         &none         &none                                 &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6   &kp PLUS              &none  &none
-&rgb_ug RGB_HUD    &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &none         &none         &none         &trans       &none      &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3   &kp MINUS             &none  &none
-                                    &bootloader      &sys_reset    &trans        &trans        &soft_off    &kp ENTER  &kp BACKSPACE  &kp N0        &double_zeros  &deactivate_num_lock
+&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &kp TAB       &kp COMMA      &kp PERIOD     &kp ASTERISK          &none  &none
+&ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans        &trans        &trans                                &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9   &kp SLASH             &none  &none
+&rgb_ug RGB_HUI    &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &none         &none         &none                                 &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6   &kp PLUS              &none  &none
+&rgb_ug RGB_HUD    &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &none         &none         &none         &trans       &none      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3   &kp MINUS             &none  &none
+                                    &bootloader      &sys_reset    &trans        &trans        &soft_off    &kp ENTER  &kp NUMBER_0  &kp BACKSPACE  &double_zeros  &deactivate_num_lock
             >;
 
             sensor-bindings =
