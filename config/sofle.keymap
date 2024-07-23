@@ -103,7 +103,7 @@
 &trans   &kp RA(Q)             &kp RA(W)                 &kp BACKSLASH      &kp LS(BACKSLASH)      &kp HOME                         &kp PG_UP       &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT       &kp PRINTSCREEN  &trans
 &trans   &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp RIGHT_BRACKET  &kp LS(RIGHT_BRACKET)  &none                            &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW      &kp RIGHT_ARROW  &trans           &trans
 &trans   &kp ASTRK             &kp MINUS                 &kp PLUS           &kp EQUAL              &kp END        &trans    &trans  &kp PAGE_DOWN   &kp LG(C)       &kp LG(V)         &trans           &trans           &trans
-                               &none                     &trans             &trans                 &kp LC(SPACE)  &none     &none   &none           &trans          &trans            &none
+                               &none                     &trans             &trans                 &kp LG(SPACE)  &none     &none   &none           &trans          &trans            &none
             >;
 
             sensor-bindings =
