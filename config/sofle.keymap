@@ -122,7 +122,7 @@
             display-name = "num_lock";
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                          &kp TAB       &kp COMMA      &kp PERIOD     &kp ASTERISK          &none  &none
-&ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans        &trans        &trans                                &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9   &kp SLASH             &none  &none
+&ext_power EP_TOG  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans        &trans        &trans                                &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9   &kp RA(Q)             &none  &none
 &rgb_ug RGB_HUI    &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &none         &none         &none                                 &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6   &kp PLUS              &none  &none
 &rgb_ug RGB_HUD    &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &none         &none         &none         &trans       &none      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3   &kp MINUS             &none  &none
                                     &bootloader      &sys_reset    &trans        &trans        &soft_off    &kp ENTER  &kp NUMBER_0  &kp BACKSPACE  &double_zeros  &deactivate_num_lock
