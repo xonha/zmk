@@ -99,11 +99,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11    &kp F1                &kp F2                    &kp F3        &kp F4      &kp F5                            &kp F6            &kp F7                 &kp F8             &kp F9                &kp F10                &kp F12
-&kp PG_UP  &kp RA(Q)             &kp RA(W)                 &kp ASTERISK  &kp MINUS   &kp UNDERSCORE                    &kp LS(GRAVE)     &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp HOME
-&kp PG_DN  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp PLUS      &kp EQUAL   &kp GRAVE                         &kp LEFT_ARROW    &kp DOWN_ARROW         &kp UP_ARROW       &kp RIGHT_ARROW       &kp LS(GRAVE)          &kp END
-&trans     &kp EXCLAMATION       &kp AT_SIGN               &kp HASH      &kp DOLLAR  &kp PERCENT     &trans    &trans  &kp LS(NUMBER_6)  &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-                                 &none                     &trans        &trans      &kp LG(SPACE)   &none     &none   &none             &trans                 &trans             &none
+&kp F11    &kp F1                &kp F2                    &kp F3     &kp F4      &kp F5                            &kp F6            &kp F7                 &kp F8             &kp F9                &kp F10                &kp F12
+&kp PG_UP  &kp RA(Q)             &kp RA(W)                 &kp PLUS   &kp MINUS   &kp UNDERSCORE                    &kp LS(GRAVE)     &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp RIGHT_BRACKET     &kp BACKSLASH          &kp HOME
+&kp PG_DN  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp GRAVE  &kp EQUAL   &kp ASTERISK                      &kp LEFT_ARROW    &kp DOWN_ARROW         &kp UP_ARROW       &kp RIGHT_ARROW       &kp LS(GRAVE)          &kp END
+&trans     &kp EXCLAMATION       &kp AT_SIGN               &kp HASH   &kp DOLLAR  &kp PERCENT     &trans    &trans  &kp LS(NUMBER_6)  &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+                                 &none                     &trans     &trans      &kp LG(SPACE)   &none     &none   &none             &trans                 &trans             &none
             >;
 
             sensor-bindings =
