@@ -82,7 +82,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp A B>;
+                <&inc_dec_kp F16 F15>;
         };
 
         utils_layer {
@@ -103,10 +103,6 @@
 &trans     &kp EXCLAMATION  &kp AT_SIGN  &kp HASH        &kp DOLLAR    &kp PERCENT               &trans           &trans  &kp END         &kp AMPERSAND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans
                             &none        &trans          &trans        &kp SPACE                 &kp LG(SPACE)    &none   &none           &trans                 &trans                &none
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp F13 F14>;
         };
 
         num_lock_layer {
@@ -122,13 +118,9 @@
 &trans  &trans  &trans       &trans      &trans   &trans                           &trans        &trans         &trans        &trans         &none         &none
 &trans  &kp F1  &kp F2       &kp F3      &kp F4   &kp F5                           &kp PLUS      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9   &kp ASTERISK  &trans
 &trans  &kp F6  &kp F7       &kp F8      &kp F9   &kp F10                          &kp MINUS     &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6   &kp RA(Q)     &trans
-&trans  &trans  &trans       &trans      &kp F11  &kp F12  &kp F13      &kp F14    &kp PERIOD    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3   &kp COMMA     &trans
+&trans  &trans  &trans       &trans      &kp F11  &kp F12  &trans       &trans     &kp PERIOD    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3   &kp COMMA     &trans
                 &bootloader  &sys_reset  &trans   &trans   &soft_off    &kp ENTER  &kp NUMBER_0  &kp BACKSPACE  &kp TAB       &double_zeros
             >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp F13 F14>;
         };
     };
 };
