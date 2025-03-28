@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -74,11 +73,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3        &kp N4     &kp N5                                  &kp N6  &kp N7         &kp N8      &kp N9        &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E         &kp R      &kp T                                   &kp Y   &kp U          &kp I       &kp O         &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S   &kp D         &kp F      &kp G                                   &kp H   &kp J          &kp K       &kp L         &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C         &kp V      &kp B      &kp F13           &kp F14    &kp N   &kp M          &kp COMMA   &kp DOT       &kp SLASH      &kp RIGHT_SHIFT
-                   &mo 2   &kp LEFT_ALT  &kp LCTRL  &kp SPACE  &lt 2 LEFT_WIN    &kp ENTER  &mo 1   &kp BACKSPACE  &kp DELETE  &kp CAPSLOCK
+&kp GRAVE  &kp N1  &kp N2        &kp N3        &kp N4     &kp N5                                   &kp N6  &kp N7         &kp N8      &kp N9        &kp N0         &kp MINUS
+&kp TAB    &kp Q   &kp W         &kp E         &kp R      &kp T                                    &kp Y   &kp U          &kp I       &kp O         &kp P          &kp LEFT_BRACKET
+&kp ESC    &kp A   &kp S         &kp D         &kp F      &kp G                                    &kp H   &kp J          &kp K       &kp L         &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z   &kp X         &kp C         &kp V      &kp B   &kp F13               &kp F14    &kp N   &kp M          &kp COMMA   &kp DOT       &kp SLASH      &kp RIGHT_SHIFT
+                   &kp CAPSLOCK  &kp LEFT_ALT  &kp LCTRL  &mo 2   &mt LEFT_WIN SPACE    &kp ENTER  &mo 1   &kp BACKSPACE  &kp DELETE  &kp CAPSLOCK
             >;
 
             sensor-bindings =
@@ -98,11 +97,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11    &kp F1           &kp F2        &kp F3          &kp F4      &kp F5                                      &kp F6          &kp F7                 &kp F8                &kp F9                 &kp F10        &kp F12
-&kp PG_UP  &kp RA(Q)        &kp RA(W)     &kp UNDERSCORE  &kp PLUS    &kp NON_US_BACKSLASH                        &trans          &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)     &kp RIGHT_BRACKET      &kp BACKSLASH  &kp HOME
-&kp PG_DN  &kp GRAVE        &kp ASTERISK  &kp MINUS       &kp EQUAL   &kp LS(NON_US_BACKSLASH)                    &kp LEFT_ARROW  &kp DOWN_ARROW         &kp UP_ARROW          &kp RIGHT_ARROW        &kp LS(GRAVE)  &kp END
-&trans     &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR  &kp PERCENT               &trans    &trans  &trans          &kp AMPERSAND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans
-                            &none         &trans          &trans      &kp LG(SPACE)             &none     &none   &none           &trans                 &trans                &none
+&kp F11    &kp F1           &kp F2        &kp F3          &kp F4      &kp F5                                         &kp F6          &kp F7                 &kp F8                &kp F9                 &kp F10        &kp F12
+&kp PG_UP  &kp RA(Q)        &kp RA(W)     &kp UNDERSCORE  &kp PLUS    &kp NON_US_BACKSLASH                           &kp HOME        &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)     &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
+&kp PG_DN  &kp GRAVE        &kp ASTERISK  &kp MINUS       &kp EQUAL   &kp LS(NON_US_BACKSLASH)                       &kp LEFT_ARROW  &kp DOWN_ARROW         &kp UP_ARROW          &kp RIGHT_ARROW        &kp LS(GRAVE)  &trans
+&trans     &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR  &kp PERCENT               &trans       &trans  &kp END         &kp AMPERSAND          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans
+                            &none         &trans          &trans      &kp LG(SPACE)             &kp SPACE    &none   &none           &trans                 &trans                &none
             >;
 
             sensor-bindings =
@@ -120,11 +119,11 @@
 
             display-name = "num_lock";
             bindings = <
-&trans  &trans  &trans       &trans      &trans   &trans                           &trans        &trans         &trans        &trans         &none      &none
-&kp F1  &kp F2  &kp F3       &kp F4      &kp F5   &kp F6                           &bt BT_SEL 3  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9   &kp PLUS   &kp MINUS
-&kp F7  &kp F8  &kp F9       &kp F10     &kp F11  &kp F12                          &bt BT_SEL 2  &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6   &kp RA(Q)  &kp ASTERISK
-&trans  &trans  &trans       &trans      &trans   &trans   &trans       &none      &bt BT_SEL 1  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3   &kp COMMA  &kp PERIOD
-                &bootloader  &sys_reset  &trans   &trans   &soft_off    &kp ENTER  &kp TAB       &kp BACKSPACE  &kp NUMBER_0  &double_zeros
+&trans  &trans  &trans       &trans      &trans   &trans                           &trans        &trans         &trans        &trans         &none         &none
+&trans  &kp F1  &kp F2       &kp F3      &kp F4   &kp F5                           &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp PLUS       &kp MINUS     &trans
+&trans  &kp F6  &kp F7       &kp F8      &kp F9   &kp F10                          &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp RA(Q)      &kp ASTERISK  &trans
+&trans  &trans  &trans       &trans      &kp F11  &kp F12  &kp F13      &kp F14    &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp PERIOD     &kp COMMA     &trans
+                &bootloader  &sys_reset  &trans   &trans   &soft_off    &kp ENTER  &kp NUMBER_0  &kp BACKSPACE  &kp TAB       &double_zeros
             >;
 
             sensor-bindings =
