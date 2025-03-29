@@ -62,7 +62,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        main_layer {
+        main {
             display-name = "main";
 
             // ------------------------------------------------------------------------------------------------------------
@@ -85,7 +85,7 @@
                 <&inc_dec_kp F16 F15>;
         };
 
-        utils_layer {
+        lower {
             display-name = "utils";
 
             // TODO: Some binds are waiting for shifted keycode support.
@@ -105,7 +105,7 @@
             >;
         };
 
-        num_lock_layer {
+        upper {
             // ----------------------------------------------------------------------------------------------------------------------------
             // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
             // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
