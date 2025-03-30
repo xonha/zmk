@@ -97,11 +97,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11               &kp F1           &kp F2          &kp F3     &kp F4        &kp F5                                             &kp F6          &kp F7            &kp F8            &kp F9           &kp F10                &kp F12
-&kp NON_US_BACKSLASH  &kp RA(Q)        &kp RA(W)       &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                           &kp HOME        &kp PG_DN         &kp PG_UP         &kp END          &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)
-&kp GRAVE             &kp LS(GRAVE)    &kp UNDERSCORE  &kp MINUS  &kp EQUAL     &kp AMPERSAND                                      &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW      &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS
-&kp CAPSLOCK          &kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR    &kp PERCENT               &trans           &trans  &kp C_PLAY      &kp K_PLAY_PAUSE  &kp C_PLAY_PAUSE  &kp K_PP         &kp RIGHT_BRACKET      &kp BACKSLASH
-                                       &trans          &trans     &kp DELETE    &kp SPACE                 &kp LG(SPACE)    &trans  &trans          &trans            &trans            &trans
+&kp F11               &kp F1           &kp F2          &kp F3     &kp F4        &kp F5                                             &kp F6          &kp F7          &kp F8        &kp F9           &kp F10                &kp F12
+&kp NON_US_BACKSLASH  &kp RA(Q)        &kp RA(W)       &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                           &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)
+&kp GRAVE             &kp LS(GRAVE)    &kp UNDERSCORE  &kp MINUS  &kp EQUAL     &kp AMPERSAND                                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS
+&kp CAPSLOCK          &kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR    &kp PERCENT               &trans           &trans  &trans          &trans          &trans        &trans           &kp RIGHT_BRACKET      &kp BACKSLASH
+                                       &trans          &trans     &kp DELETE    &kp SPACE                 &kp LG(SPACE)    &trans  &trans          &trans          &trans        &trans
             >;
         };
 
