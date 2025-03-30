@@ -118,7 +118,7 @@
 &trans   &trans      &trans      &trans             &trans           &trans                                 &trans        &trans         &trans        &trans        &none         &none
 &kp F11  &kp F1      &kp F2      &kp F3             &kp F4           &kp F5                                 &kp PLUS      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
 &kp F12  &kp F6      &kp F7      &kp F8             &kp F9           &kp F10                                &kp MINUS     &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
-&trans   &kp C_PREV  &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &trans    &trans     &kp PERIOD    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
+&trans   &kp K_PREV  &kp K_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PLAY_PAUSE  &trans    &trans     &kp PERIOD    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
                      &trans      &trans             &trans           &trans            &trans    &kp ENTER  &kp NUMBER_0  &kp BACKSPACE  &trans        &trans
             >;
         };
