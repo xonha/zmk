@@ -73,11 +73,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                  &kp N6  &kp N7                  &kp N8     &kp N9   &kp N0         &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T                                   &kp Y   &kp U                   &kp I      &kp O    &kp P          &kp LEFT_BRACKET
-&kp ESC    &kp A   &kp S   &kp D   &kp F      &kp G                                   &kp H   &kp J                   &kp K      &kp L    &kp SEMICOLON  &kp SQT
-&kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B        &kp F13         &kp F16    &kp N   &kp M                   &kp COMMA  &kp DOT  &kp SLASH      &kp RIGHT_SHIFT
-                   &none   &none   &kp LCTRL  &lt 2 SPACE  &kp LEFT_WIN    &kp ENTER  &mo 1   &mt LEFT_ALT BACKSPACE  &none      &none
+&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                                     &kp N6  &kp N7         &kp N8     &kp N9   &kp N0         &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp E   &kp R      &kp T                                      &kp Y   &kp U          &kp I      &kp O    &kp P          &kp LEFT_BRACKET
+&kp ESC    &kp A   &kp S   &kp D   &kp F      &kp G                                      &kp H   &kp J          &kp K      &kp L    &kp SEMICOLON  &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C   &kp V      &kp B        &kp F13         &kp F16       &kp N   &kp M          &kp COMMA  &kp DOT  &kp SLASH      &kp ENTER
+                   &none   &none   &kp LCTRL  &lt 2 SPACE  &kp LEFT_WIN    &kp LEFT_ALT  &mo 1   &kp BACKSPACE  &none      &none
             >;
 
             sensor-bindings =
@@ -115,11 +115,11 @@
 
             display-name = "num_lock";
             bindings = <
-&trans   &trans   &trans   &trans             &trans           &trans                     &trans        &trans         &trans        &trans        &none         &none
-&kp F11  &kp F1   &kp F2   &kp F3             &kp F4           &kp F5                     &kp PLUS      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
-&kp F12  &kp F6   &kp F7   &kp F8             &kp F9           &kp F10                    &kp MINUS     &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
-&kp F13  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F16  &trans    &trans  &kp PERIOD    &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
-                  &trans   &trans             &trans           &trans   &trans    &trans  &kp NUMBER_0  &kp BACKSPACE  &trans        &trans
+&trans   &trans   &trans   &trans             &trans           &trans                     &trans        &trans        &trans        &trans        &none         &none
+&kp F11  &kp F1   &kp F2   &kp F3             &kp F4           &kp F5                     &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
+&kp F12  &kp F6   &kp F7   &kp F8             &kp F9           &kp F10                    &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
+&kp F13  &kp F14  &kp F15  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F16  &trans    &trans  &kp PERIOD    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
+                  &trans   &trans             &trans           &trans   &trans    &trans  &kp NUMBER_0  &trans        &trans        &trans
             >;
         };
     };
