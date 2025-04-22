@@ -22,14 +22,6 @@
 
     combos { compatible = "zmk,combos"; };
 
-    behaviors {
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-mouse-key-press";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <1>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
