@@ -81,7 +81,7 @@
 &trans   &trans             &trans           &trans   &trans   &trans                          &trans        &trans        &trans        &trans        &trans        &trans
 &kp F12  &kp F6             &kp F7           &kp F8   &kp F9   &kp F10                         &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
 &kp F11  &kp F1             &kp F2           &kp F3   &kp F4   &kp F5                          &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
-&trans   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F13  &kp F14  &kp F15  &trans         &trans  &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans
+&trans   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F13  &kp F14  &kp F15  &trans         &trans  &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
                             &trans           &trans   &trans   &trans   &bootloader    &trans  &kp NUMBER_0  &trans        &trans        &trans
             >;
         };
