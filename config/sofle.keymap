@@ -55,7 +55,7 @@
                 <&inc_dec_kp F14 F13>;
         };
 
-        lower {
+        upper {
             // ----------------------------------------------------------------------------------------------------------------------------
             // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
             // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
@@ -73,7 +73,7 @@
             >;
         };
 
-        middle {
+        left {
             display-name = "utils";
             bindings = <
 &trans  &trans                &trans          &trans     &trans        &trans                                             &trans          &trans          &trans        &trans           &trans           &trans
@@ -84,7 +84,7 @@
             >;
         };
 
-        upper {
+        right {
             display-name = "utils";
 
             // TODO: Some binds are waiting for shifted keycode support.
