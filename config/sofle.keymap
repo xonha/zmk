@@ -78,7 +78,7 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp F11               &kp F1           &kp F2          &kp F3     &kp F4        &kp F5                                             &kp F6          &kp F7          &kp F8        &kp F9           &kp F10            &kp F12
+&trans                &trans           &trans          &trans     &trans        &trans                                             &trans          &trans          &trans        &trans           &trans             &trans
 &kp NON_US_BACKSLASH  &kp RA(Q)        &kp RA(W)       &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                           &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp C_VOLUME_UP    &kp F15
 &kp GRAVE             &kp LS(GRAVE)    &kp UNDERSCORE  &kp MINUS  &kp EQUAL     &kp AMPERSAND                                      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp DELETE         &kp F14
 &kp CAPSLOCK          &kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR    &kp PERCENT               &trans           &trans  &mkp MCLK       &mkp LCLK       &mkp RCLK     &kp PRINTSCREEN  &kp C_VOLUME_DOWN  &kp F13
