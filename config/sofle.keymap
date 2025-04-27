@@ -20,14 +20,7 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
-    combos {
-        compatible = "zmk,combos";
-
-        shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <52 57>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
