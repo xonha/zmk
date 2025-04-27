@@ -61,7 +61,7 @@
 &trans  &trans  &trans  &trans                 &trans                 &trans                          &trans        &trans        &trans        &trans        &trans        &trans
 &kp F7  &kp F8  &kp F9  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp F12                         &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
 &kp F4  &kp F5  &kp F6  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp F11                         &kp MINUS     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
-&kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp F10  &trans         &trans  &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans
+&kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp F10  &trans         &trans  &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
                 &trans  &trans                 &trans                 &trans   &bootloader    &trans  &kp NUMBER_0  &trans        &trans        &trans
             >;
         };
