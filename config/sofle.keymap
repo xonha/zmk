@@ -36,11 +36,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4         &kp N5                                               &kp N6           &kp N7  &kp N8     &kp N9   &kp N0         &trans
-&trans  &kp Q   &kp W   &kp E   &kp R          &kp T                                                &kp Y            &kp U   &kp I      &kp O    &kp P          &trans
-&trans  &kp A   &kp S   &kp D   &kp F          &kp G                                                &kp H            &kp J   &kp K      &kp L    &kp SEMICOLON  &trans
-&trans  &kp Z   &kp X   &kp C   &kp V          &kp B        &kp F13             &kp F15             &kp N            &kp M   &kp COMMA  &kp DOT  &kp SLASH      &trans
-                &trans  &trans  &mt LCTRL TAB  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_ALT ENTER  &lt 2 BACKSPACE  &mo 3   &trans     &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4         &kp N5                                               &kp N6       &kp N7           &kp N8     &kp N9   &kp N0         &trans
+&trans  &kp Q   &kp W   &kp E   &kp R          &kp T                                                &kp Y        &kp U            &kp I      &kp O    &kp P          &trans
+&trans  &kp A   &kp S   &kp D   &kp F          &kp G                                                &kp H        &kp J            &kp K      &kp L    &kp SEMICOLON  &trans
+&trans  &kp Z   &kp X   &kp C   &kp V          &kp B        &kp F13             &kp F15             &kp N        &kp M            &kp COMMA  &kp DOT  &kp SLASH      &trans
+                &trans  &trans  &mt LCTRL TAB  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_ALT ENTER  &lt 2 SPACE  &lt 3 BACKSPACE  &trans     &trans
             >;
 
             sensor-bindings =
@@ -58,15 +58,15 @@
 
             display-name = "num_lock";
             bindings = <
-&trans  &trans  &trans  &trans  &trans   &trans                          &trans         &trans        &trans        &trans        &trans        &trans
-&trans  &kp F1  &kp F4  &kp F7  &kp F10  &kp F13                         &kp PLUS       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
-&trans  &kp F2  &kp F5  &kp F8  &kp F11  &kp F14                         &kp MINUS      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
-&trans  &kp F3  &kp F6  &kp F9  &kp F12  &kp F15  &trans         &trans  &kp DOT        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
-                &trans  &trans  &trans   &trans   &bootloader    &trans  &kp BACKSPACE  &kp NUMBER_0  &trans        &trans
+&trans  &trans  &trans  &trans  &trans   &trans                          &trans        &trans         &trans        &trans        &trans        &trans
+&trans  &kp F1  &kp F4  &kp F7  &kp F10  &kp F13                         &kp PLUS      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
+&trans  &kp F2  &kp F5  &kp F8  &kp F11  &kp F14                         &kp MINUS     &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp RA(Q)     &trans
+&trans  &kp F3  &kp F6  &kp F9  &kp F12  &kp F15  &trans         &trans  &kp DOT       &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COMMA     &trans
+                &trans  &trans  &trans   &trans   &bootloader    &trans  &kp NUMBER_0  &kp BACKSPACE  &trans        &trans
             >;
         };
 
-        left {
+        lower {
             display-name = "utils";
             bindings = <
 &trans  &trans                &trans          &trans     &trans        &trans                                             &trans          &trans          &trans        &trans           &trans        &trans
@@ -77,7 +77,7 @@
             >;
         };
 
-        right {
+        middle {
             display-name = "utils";
 
             // TODO: Some binds are waiting for shifted keycode support.
