@@ -86,7 +86,7 @@
             >;
         };
 
-        extra {
+        middle {
             display-name = "utils";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans          &trans        &trans           &trans  &trans
