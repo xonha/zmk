@@ -92,7 +92,7 @@
 &trans  &trans       &trans  &trans  &trans  &trans                    &trans          &trans          &trans        &trans           &trans       &trans
 &trans  &bootloader  &none   &none   &none   &none                     &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &bootloader  &trans
 &trans  &none        &none   &none   &none   &none                     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none        &trans
-&trans  &none        &none   &none   &none   &none   &trans    &trans  &mkp MCLK       &mkp LCLK       &mkp RCLK     &kp PRINTSCREEN  &none        &trans
+&trans  &kp Z        &none   &none   &none   &none   &trans    &trans  &mkp MCLK       &mkp LCLK       &mkp RCLK     &kp PRINTSCREEN  &none        &trans
                      &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans        &trans
             >;
         };
