@@ -85,11 +85,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&trans  &trans           &trans          &trans     &trans                &trans                                      &trans             &trans                 &trans                 &trans                &trans            &trans
-&trans  &kp RA(Q)        &kp RA(W)       &kp PLUS   &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)                    &kp C_VOL_UP       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &kp ASTERISK     &kp UNDERSCORE  &kp MINUS  &kp EQUAL             &kp AMPERSAND                               &kp K_MUTE         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN     &kp HASH   &kp DOLLAR            &kp PERCENT               &trans    &trans  &kp C_VOLUME_DOWN  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                         &trans          &trans     &trans                &kp SPACE                 &trans    &trans  &trans             &trans                 &trans                 &trans
+&trans  &trans                &trans          &trans     &trans        &trans                                      &trans             &trans                 &trans                 &trans                &trans            &trans
+&trans  &kp RA(Q)             &kp RA(W)       &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp C_VOL_UP       &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE  &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp K_MUTE         &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &kp EXCLAMATION       &kp AT_SIGN     &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &kp C_VOLUME_DOWN  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+                              &trans          &trans     &trans        &kp SPACE                 &trans    &trans  &trans             &trans                 &trans                 &trans
             >;
         };
 
