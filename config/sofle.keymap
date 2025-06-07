@@ -42,11 +42,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans  &trans            &trans  &trans  &trans         &trans                                               &trans     &trans         &trans     &trans   &trans                 &trans
-&trans  &kp Q             &kp W   &kp E   &kp R          &kp T                                                &kp Y      &kp U          &kp I      &kp O    &kp P                  &trans
-&trans  &kp A             &kp S   &kp D   &kp F          &kp G                                                &kp H      &kp J          &kp K      &kp L    &kp SEMI               &trans
-&trans  &mt LEFT_SHIFT Z  &kp X   &kp C   &kp V          &kp B        &kp F13             &kp F15             &kp N      &kp M          &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
-                          &trans  &trans  &mt LCTRL DEL  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_ALT ENTER  &lt 2 TAB  &kp BACKSPACE  &trans     &trans
+&trans  &trans            &trans  &trans  &trans            &trans                                               &trans     &trans         &trans     &trans   &trans                 &trans
+&trans  &kp Q             &kp W   &kp E   &kp R             &kp T                                                &kp Y      &kp U          &kp I      &kp O    &kp P                  &trans
+&trans  &kp A             &kp S   &kp D   &kp F             &kp G                                                &kp H      &kp J          &kp K      &kp L    &lt 3 SEMI             &trans
+&trans  &mt LEFT_SHIFT Z  &kp X   &kp C   &kp V             &kp B        &kp F13             &kp F15             &kp N      &kp M          &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
+                          &trans  &trans  &mt LCTRL DELETE  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_ALT ENTER  &lt 2 TAB  &kp BACKSPACE  &trans     &trans
             >;
 
             sensor-bindings =
@@ -57,11 +57,11 @@
         upper {
             display-name = "utils";
             bindings = <
-&trans  &trans       &trans        &trans        &trans        &trans                          &trans        &trans                 &trans                 &trans                &trans            &trans
-&trans  &bootloader  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                       &kp PLUS      &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &mo 3        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0                    &kp ASTERISK  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &kp COMMA    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &trans    &trans  &kp RA(Q)     &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                     &trans        &trans        &trans        &trans        &trans    &trans  &trans        &trans                 &trans                 &trans
+&trans  &trans        &trans        &trans        &trans        &trans                          &trans  &trans                 &trans                 &trans                &trans            &trans
+&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                        &trans  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &kp DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0                    &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &kp RA(Q)     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &trans    &trans  &trans  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+                      &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans                 &trans                 &trans
             >;
         };
 
@@ -76,14 +76,14 @@
             >;
         };
 
-        fn {
+        extra {
             display-name = "num_lock";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &trans  &trans                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &kp F7  &kp F8  &kp F9  &kp F10                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &bootloader  &kp F4  &kp F5  &kp F6  &kp F11                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &kp F1  &kp F2  &kp F3  &kp F12  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                     &trans  &trans  &trans  &trans   &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
