@@ -20,14 +20,7 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Shift {
-            bindings = <&kp LEFT_SHIFT>;
-            key-positions = <52 57>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -56,7 +49,7 @@
         };
 
         upper {
-            display-name = "utils";
+            display-name = "upper";
             bindings = <
 &trans  &trans        &trans        &trans        &trans        &trans                          &trans  &trans                 &trans                 &trans                &trans            &trans
 &trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS                        &trans  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
@@ -67,7 +60,7 @@
         };
 
         lower {
-            display-name = "utils";
+            display-name = "lower";
             bindings = <
 &trans  &trans                &trans          &trans     &trans        &trans                                      &trans    &trans             &trans           &trans     &trans           &trans
 &trans  &kp RA(Q)             &kp RA(W)       &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN      &kp PAGE_UP      &kp END    &kp PRINTSCREEN  &trans
@@ -78,7 +71,7 @@
         };
 
         extra {
-            display-name = "num_lock";
+            display-name = "extra";
             bindings = <
 &trans  &trans       &trans  &trans  &trans  &trans                     &trans  &trans     &trans     &trans     &trans  &trans
 &trans  &trans       &kp F7  &kp F8  &kp F9  &kp F10                    &trans  &trans     &trans     &trans     &trans  &trans
