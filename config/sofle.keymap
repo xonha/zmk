@@ -23,6 +23,15 @@
 
     combos { compatible = "zmk,combos"; };
 
+    behaviors {
+        new_behavior: new_behavior {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "NEW_BEHAVIOR";
+            #sensor-binding-cells = <2>;
+            bindings = <&mmv>, <&mmv>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -45,8 +54,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>,
-                <&inc_dec_kp F14 F13>;
+                <&new_behavior MOVE_UP MOVE_DOWN>,
+                <&new_behavior MOVE_LEFT MOVE_RIGHT>;
         };
 
         upper {
