@@ -72,10 +72,10 @@
         lower {
             display-name = "lower";
             bindings = <
-&trans  &trans                &trans           &trans     &trans        &trans                                      &trans    &trans             &trans           &trans     &trans      &trans
-&trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN      &kp PAGE_UP      &kp END    &kp C_MUTE  &trans
-&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp LEFT  &kp DOWN           &kp UP           &kp RIGHT  &kp DELETE  &trans
-&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &kp F13   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15     &trans
+&trans  &trans                &trans           &trans     &trans        &trans                                      &trans    &trans             &trans           &trans     &trans        &trans
+&trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN      &kp PAGE_UP      &kp END    &kp C_MUTE    &trans
+&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp LEFT  &kp DOWN           &kp UP           &kp RIGHT  &kp CAPSLOCK  &trans
+&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &kp F13   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15       &trans
                               &trans           &trans     &trans        &kp SPACE                 &trans    &trans  &trans    &trans             &trans           &trans
             >;
         };
