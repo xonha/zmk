@@ -46,11 +46,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans         &trans                                                 &trans       &trans                  &trans     &trans   &trans         &trans
-&trans  &kp Q   &kp W   &kp E   &kp R          &kp T                                                  &kp Y        &kp U                   &kp I      &kp O    &kp P          &trans
-&trans  &kp A   &kp S   &kp D   &kp F          &kp G                                                  &kp H        &kp J                   &kp K      &kp L    &kp SEMICOLON  &trans
-&trans  &kp Z   &kp X   &kp C   &kp V          &kp B        &kp F13             &kp F15               &kp N        &kp M                   &kp COMMA  &kp DOT  &kp SLASH      &trans
-                &trans  &trans  &mt LCTRL TAB  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_SHIFT ENTER  &lt 2 SPACE  &mt LEFT_ALT BACKSPACE  &trans     &trans
+&trans  &trans  &trans  &trans  &trans         &trans                                                 &trans        &trans                  &trans     &trans   &trans         &trans
+&trans  &kp Q   &kp W   &kp E   &kp R          &kp T                                                  &kp Y         &kp U                   &kp I      &kp O    &kp P          &trans
+&trans  &kp A   &kp S   &kp D   &kp F          &kp G                                                  &kp H         &kp J                   &kp K      &kp L    &kp SEMICOLON  &trans
+&trans  &kp Z   &kp X   &kp C   &kp V          &kp B        &kp F13             &kp F15               &kp N         &kp M                   &kp COMMA  &kp DOT  &kp SLASH      &trans
+                &trans  &trans  &mt LCTRL TAB  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_SHIFT ENTER  &lt 2 DELETE  &mt LEFT_ALT BACKSPACE  &trans     &trans
             >;
 
             sensor-bindings =
@@ -76,7 +76,7 @@
 &trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN      &kp PAGE_UP      &kp END    &kp CAPSLOCK  &trans
 &trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp LEFT  &kp DOWN           &kp UP           &kp RIGHT  &kp DELETE    &trans
 &trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &kp F13   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F14    &kp F15       &trans
-                              &trans           &trans     &kp DELETE    &kp SPACE                 &trans    &trans  &trans    &trans             &trans           &trans
+                              &trans           &trans     &trans        &kp SPACE                 &trans    &trans  &trans    &trans             &trans           &trans
             >;
         };
 
