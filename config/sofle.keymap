@@ -62,9 +62,9 @@
             display-name = "upper";
             bindings = <
 &trans  &trans     &trans        &trans        &trans         &trans                          &trans  &trans                 &trans                 &trans                &trans            &trans
-&trans  &kp RA(Q)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp MINUS                       &trans  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp NUMBER_0                    &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &kp ASTRK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp DOT       &trans    &trans  &trans  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+&trans  &kp COMMA  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp PLUS                        &trans  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &kp DOT    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp MINUS                       &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &sl 4      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_0  &trans    &trans  &trans  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
                    &trans        &trans        &kp BACKSPACE  &trans        &trans    &trans  &mo 3   &trans                 &trans                 &trans
             >;
         };
@@ -88,6 +88,16 @@
 &trans  &trans       &kp F4  &kp F5  &kp F6  &kp F11                    &bt BT_CLR     &mkp LCLK      &mkp RCLK      &mkp MCLK      &trans         &trans
 &trans  &soft_off    &kp F1  &kp F2  &kp F3  &kp F12  &trans    &trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &trans
                      &trans  &trans  &trans  &trans   &trans    &trans  &trans         &trans         &trans         &trans
+            >;
+        };
+
+        upper_utils {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp ASTERISK                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp RA(Q)                       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
