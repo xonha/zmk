@@ -90,15 +90,5 @@
                      &trans  &trans  &trans  &trans   &trans    &trans  &trans         &trans         &trans         &trans
             >;
         };
-
-        upper_utils {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp ASTERISK                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp RA(Q)                       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans        &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-        };
     };
 };
