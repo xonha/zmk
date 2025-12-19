@@ -49,11 +49,11 @@
         upper {
             display-name = "upper";
             bindings = <
-&trans  &trans              &trans        &trans        &trans        &trans                                 &trans  &trans                 &trans                 &trans                &trans            &trans
-&trans  &mt ASTERISK RA(Q)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt PLUS MINUS                         &trans  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &mt COMMA DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0                           &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &mt LCTRL F16       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt ENTER BACKSPACE  &trans    &trans  &trans  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                            &trans        &trans        &trans        &trans               &trans    &trans  &mo 3   &trans                 &trans                 &trans
+&trans  &trans              &trans        &trans        &trans        &trans                                 &trans        &trans                 &trans                 &trans                &trans            &trans
+&trans  &mt ASTERISK RA(Q)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &mt PLUS MINUS                         &bt BT_SEL 1  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &mt COMMA DOT       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0                           &bt BT_SEL 0  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &mt LCTRL F16       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt ENTER BACKSPACE  &trans    &trans  &bt BT_SEL 2  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+                            &trans        &trans        &trans        &trans               &trans    &trans  &mo 3         &trans                 &trans                 &trans
             >;
         };
 
