@@ -68,11 +68,11 @@
         extra {
             display-name = "extra";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans        &trans        &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &kp NUMBER_0  &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans          &trans        &trans           &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans        &trans           &kp CAPSLOCK  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans          &trans        &trans
             >;
         };
     };
