@@ -57,11 +57,11 @@
         lower {
             display-name = "lower";
             bindings = <
-&trans  &trans                &trans           &trans     &trans        &trans                                      &trans    &trans         &trans       &trans     &trans    &trans
-&trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans    &trans
-&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans    &trans
-&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &trans    &trans         &trans       &trans     &kp CAPS  &trans
-                              &trans           &trans     &trans        &mo 3                     &trans    &trans  &trans    &trans         &trans       &trans
+&trans  &trans                &trans           &trans     &trans        &trans                                      &trans             &trans                 &trans                 &trans                &trans            &trans
+&trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp C_VOLUME_UP    &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &none              &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &kp C_VOLUME_DOWN  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+                              &trans           &trans     &trans        &mo 3                     &trans    &trans  &trans             &trans                 &trans                 &trans
             >;
         };
 
