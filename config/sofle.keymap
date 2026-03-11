@@ -38,7 +38,7 @@
 &trans  &trans            &trans  &trans  &trans         &trans                                               &trans        &trans         &trans     &trans   &trans                 &trans
 &trans  &kp Q             &kp W   &kp E   &kp R          &kp T                                                &kp Y         &kp U          &kp I      &kp O    &kp P                  &trans
 &trans  &kp A             &kp S   &kp D   &kp F          &kp G                                                &kp H         &kp J          &kp K      &kp L    &kp SEMICOLON          &trans
-&trans  &mt LEFT_SHIFT Z  &kp X   &kp C   &kp V          &kp B        &kp F13             &kp F15             &kp N         &kp M          &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
+&trans  &mt LEFT_SHIFT Z  &kp X   &kp C   &kp V          &kp B        &trans              &trans              &kp N         &kp M          &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
                           &trans  &trans  &mt LCTRL TAB  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_ALT ENTER  &lt 2 DELETE  &kp BACKSPACE  &trans     &trans
             >;
         };
@@ -46,21 +46,21 @@
         upper {
             display-name = "upper";
             bindings = <
-&trans  &trans   &trans   &trans   &trans   &trans                     &trans  &trans                 &trans                 &trans                &trans            &trans
-&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                    &none   &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &none   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans    &trans  &none   &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                 &trans   &trans   &trans   &trans   &trans    &trans  &mo 3   &trans                 &trans                 &trans
+&trans  &trans   &trans   &trans   &trans   &trans                     &trans             &trans                 &trans                 &trans                &trans            &trans
+&trans  &kp F11  &kp F12  &kp F13  &kp F14  &kp F15                    &kp C_VOLUME_UP    &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5                     &none              &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &kp F6   &kp F7   &kp F8   &kp F9   &kp F10  &trans    &trans  &kp C_VOLUME_DOWN  &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+                 &trans   &trans   &trans   &trans   &trans    &trans  &mo 3              &trans                 &trans                 &trans
             >;
         };
 
         lower {
             display-name = "lower";
             bindings = <
-&trans  &trans                &trans           &trans     &trans        &trans                                      &trans    &trans         &trans       &trans     &trans             &trans
-&trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp C_VOLUME_UP    &trans
-&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &kp C_VOLUME_DOWN  &trans
-&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &kp F13   &kp F14        &kp F15      &kp F16    &kp CAPS           &trans
+&trans  &trans                &trans           &trans     &trans        &trans                                      &trans    &trans         &trans       &trans     &trans    &trans
+&trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BACKSLASH)                    &kp HOME  &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &trans    &trans
+&trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND                               &kp LEFT  &kp DOWN       &kp UP       &kp RIGHT  &trans    &trans
+&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT               &trans    &trans  &trans    &trans         &trans       &trans     &kp CAPS  &trans
                               &trans           &trans     &trans        &mo 3                     &trans    &trans  &trans    &trans         &trans       &trans
             >;
         };
@@ -68,11 +68,11 @@
         extra {
             display-name = "extra";
             bindings = <
-&trans  &trans       &trans  &trans  &trans  &trans                     &trans            &trans        &trans        &trans        &trans         &trans
-&trans  &bootloader  &kp F7  &kp F8  &kp F9  &kp F10                    &kp PLUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK   &trans
-&trans  &trans       &kp F4  &kp F5  &kp F6  &kp F11                    &mt COMMA PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &trans
-&trans  &trans       &kp F1  &kp F2  &kp F3  &kp F12  &trans    &trans  &kp MINUS         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &trans
-                     &trans  &trans  &trans  &trans   &trans    &trans  &trans            &kp NUMBER_0  &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans            &trans        &trans        &trans        &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp PLUS          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTERISK   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &mt COMMA PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp BACKSPACE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH      &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans            &kp NUMBER_0  &trans        &trans
             >;
         };
     };
